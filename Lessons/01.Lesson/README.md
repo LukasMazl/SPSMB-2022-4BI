@@ -2,7 +2,7 @@
 Cvičení na object's reflextion. Do souborů, které jsou v cz.spsmb.source nezapisujte!
 Vytvořte třídu ProgramScanner, bude mít tyto metody:
 
- - Získá přihlašovací údaje z instance třídy PrivateFile
+ - Získá přihlašovací údaje z instance třídy PrivateField
  - Vypíše jaké jsou veřejné a privátní metody ve třídě DeclaredMethodList
  - Vytvoří několik instancí třídy Singleton
 
