@@ -7,20 +7,25 @@ import java.net.URL;
 public class LicenceServer {
 
     private static final String LICENSE_SERVER_URL = "https://licence.tulacka.cz/check/123412341234";
+    private static boolean validLicence;
 
-    private static boolean checkValidLicense(String url) {
+    static {
+        checkValidLicense(LICENSE_SERVER_URL);
+    }
+
+    private static void checkValidLicense(String url) {
         try {
             HttpURLConnection httpConnection = (HttpURLConnection) new URL(url).openConnection();
             httpConnection.connect();
-            return (httpConnection.getResponseCode() == 200);
+            validLicence = (httpConnection.getResponseCode() == 200);
         } catch (IOException e) {
             e.printStackTrace();
-            return false;
+            validLicence = false;
         }
     }
 
     public static void startGame() {
-        if (!checkValidLicense(LICENSE_SERVER_URL)) {
+        if (!validLicence) {
             System.out.println("Licence is not valid");
         } else {
             System.out.println("Starting game");
