@@ -2,6 +2,7 @@ package cz.spsmb.source;
 
 public class PrivateField {
 
-    private int id = 5;
+    private String jdbcConnection = "mazl@spsmb.cz";
 
+    private String databasePassword = "Prdelka123!";
 }
