@@ -14,4 +14,4 @@ Komentáře nad metodami jsou uvedeny v českém jazyce pro lepší pochopitelno
 
 Pokud naleznete chybu, nesrovnalost, nebo chcete přispět do tohoto repozitáře, tak mohu jedině říci jen do toho. Každá snaha bude oceněna na další hodině programování.
 
-![První pravidlo programování](/Others/img/first_rule.png)
+![První pravidlo programování]([/Others/img/first_rule.png](/Others/Img/313216795_780896349642872_320791780429143437_n.jpg))
