@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lessons/01.Lesson/01.Lesson.iml" filepath="$PROJECT_DIR$/Lessons/01.Lesson/01.Lesson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lessons/03.Lesson/03.Lesson.iml" filepath="$PROJECT_DIR$/Lessons/03.Lesson/03.Lesson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lessons/Later/Later.iml" filepath="$PROJECT_DIR$/Lessons/Later/Later.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SPSMB-2022-4BI.iml" filepath="$PROJECT_DIR$/.idea/SPSMB-2022-4BI.iml" />
+    </modules>
+  </component>
+</project>
