@@ -11,4 +11,4 @@ Matice může mít následující velikosti:
  - 6 x 6
 
 Hodnocení:
- - Za splnění 4 a 5 bodů 1 s váhou 0,4
+ - Za splnění 4 a 5 bodů 1 s váhou 1
