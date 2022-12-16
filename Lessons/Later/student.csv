@@ -1,4 +1,4 @@
-identification;user_name;user_country
-1;Pepa Nova;Czechia
-2;Juan Pablo;Spain
-3;Rob Lord;Scotia
+user_name;user_country;identification;has_dog
+Pepa Nova;Czechia;1;true
+Juan Pablo;Spain;2;false
+Rob Lord;Scotia;3;true
